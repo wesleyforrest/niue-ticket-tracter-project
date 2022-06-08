@@ -1,4 +1,16 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   border: solid 2px black;
   margin: 10px;
+  padding: 20px;
+  background-color: #f7a072;
 }

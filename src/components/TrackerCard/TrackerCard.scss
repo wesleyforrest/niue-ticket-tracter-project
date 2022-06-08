@@ -1,7 +1,20 @@
 .tracker-card {
+  display: flex;
+  flex-direction: column;
   border: solid 1px black;
-  height: 300px;
-  width: 220px;
+  border-radius: 50px;
+  height: 350px;
+  width: 200px;
   margin: 10px;
-  padding: 10px;
+  padding: 20px;
+  background-color: #b5e2fa;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  border-radius: 50px;
+  margin-top: 10px;
 }
