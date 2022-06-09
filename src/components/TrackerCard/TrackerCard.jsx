@@ -8,7 +8,7 @@ const TrackerCard = (props) => {
   const [count, setCount] = useState(0);
 
   const decrement = () => {
-    setCount(count - 1);
+    if (count >= 1) setCount(count - 1);
   };
 
   const increment = () => {
