@@ -7,6 +7,11 @@ function App() {
     return <TrackerCard name={person.name} role={person.role} />;
   });
   console.log(ticketCardJSX);
+
+  const newUserJSX = (name, job) => {
+    <TrackerCard name={person.name} role={person.role} />;
+  };
+
   return (
     <div className="App">
       <section className="header">
