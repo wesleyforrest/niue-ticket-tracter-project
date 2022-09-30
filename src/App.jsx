@@ -8,9 +8,9 @@ function App() {
   });
   console.log(ticketCardJSX);
 
-  const newUserJSX = (name, job) => {
-    <TrackerCard name={person.name} role={person.role} />;
-  };
+  // const newUserJSX = (name, job) => {
+  //   <TrackerCard name={person.name} role={person.role} />;
+  // };
 
   return (
     <div className="App">
